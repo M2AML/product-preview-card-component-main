@@ -205,9 +205,16 @@ main {
     width: 400px;
   }
   .desktop__img {
-    display: none;  
+    display: none;
   }
   .mobile__img {
     display: block;
+    border-radius: 20px 20px 0 0;
+  }
+  .container__text {
+    border-radius: 0 0px 15px 15px;
+  }
+  .container__text h1 {
+    font-size: 3em;
   }
 }
